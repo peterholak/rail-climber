@@ -2,6 +2,8 @@
 
 The game at https://play.google.com/store/apps/details?id=net.holak.railclimber
 
+See also https://www.holak.net/how_to_make_an_area-based_2d_smoke_effect_that_doesn_t_suck
+
 **Rewrite in progress, not fully functional at the moment!**
 
 ## Bit of a back story
