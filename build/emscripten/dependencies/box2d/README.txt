@@ -1,0 +1,1 @@
+copy to Box2D root, then first run build-box2d and then link-box2d

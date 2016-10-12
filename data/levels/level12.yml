@@ -1,0 +1,13 @@
+version: 2
+
+title:
+    duration: 1.15
+    text: Wait for it
+
+medalTimes:
+    gold: 22
+    silver: 47.5
+    bronze: 100
+
+themeMutators:
+    - sunset

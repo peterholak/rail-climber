@@ -1,0 +1,13 @@
+version: 2
+
+medalTimes:
+    gold: 10.5
+    silver: 18
+    bronze: 56
+
+tip:
+    type: picture
+    picture: pictures/ui/tips/tip5.png
+
+themeMutators:
+    - winter

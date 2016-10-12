@@ -1,0 +1,12 @@
+version: 2
+
+title:
+    text: The Maze
+
+medalTimes:
+    gold: 27
+    silver: 50
+    bronze: 105
+
+themeMutators:
+    - night

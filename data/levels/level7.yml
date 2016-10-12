@@ -1,0 +1,9 @@
+version: 2
+
+medalTimes:
+    gold: 8
+    silver: 11
+    bronze: 46
+
+tip:
+    type: animation

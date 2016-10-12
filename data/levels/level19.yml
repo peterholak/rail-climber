@@ -1,0 +1,12 @@
+version: 2
+
+title:
+    text: Hold on
+
+medalTimes:
+    gold: 11.5
+    silver: 15
+    bronze: 45
+
+themeMutators:
+    - winter

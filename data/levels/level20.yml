@@ -1,0 +1,12 @@
+version: 2
+
+title:
+    text: Up the hill
+
+medalTimes:
+    gold: 4.75
+    silver: 6
+    bronze: 16
+
+themeMutators:
+    - winter

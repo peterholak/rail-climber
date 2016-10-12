@@ -1,0 +1,13 @@
+version: 2
+
+title:
+    duration: 1.4
+    text: Faster, meaner, purpler
+
+medalTimes:
+    gold: 25
+    silver: 45
+    bronze: 100
+
+themeMutators:
+    - sunset

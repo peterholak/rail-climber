@@ -1,0 +1,7 @@
+version: 2
+
+medalTimes:
+    gold: 25
+    silver: 36.5
+    bronze: 60
+

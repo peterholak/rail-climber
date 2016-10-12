@@ -1,0 +1,12 @@
+version: 2
+
+title:
+    text: Left or right
+
+medalTimes:
+    gold: 14
+    silver: 32
+    bronze: 85
+
+themeMutators:
+    - night

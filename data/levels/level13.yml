@@ -1,0 +1,9 @@
+version: 2
+
+medalTimes:
+    gold: 8
+    silver: 25
+    bronze: 40
+
+themeMutators:
+    - night

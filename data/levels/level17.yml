@@ -1,0 +1,10 @@
+version: 2
+
+medalTimes:
+    gold: 14
+    silver: 27
+    bronze: 50
+
+themeMutators:
+    - night
+    - winter

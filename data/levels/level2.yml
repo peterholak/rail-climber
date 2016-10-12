@@ -1,0 +1,20 @@
+version: 2
+
+title:
+    duration: 1.4
+    text: Climb your way to the top
+    multiline: true
+
+medalTimes:
+    gold: 11
+    silver: 20
+    bronze: 70
+
+tip:
+    type: text
+    message: >
+        Tip: If you're having trouble with some level, you can try the next one instead.
+        Thee levels are unlocked at the same time.
+
+themeMutators:
+    - sunset

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Manifest xmlns="http://schemas.tizen.org/2012/12/manifest">
+    <Id>SKqWUDPNs5</Id>
+    <Version>1.1.2</Version>
+    <Type>C++App</Type>
+    <Author>Peter Holak</Author>
+    <Url>http://www.holak.net/railclimber</Url>
+    <Requirements>
+        <Feature Name="http://tizen.org/feature/opengles.version.2_0">true</Feature>
+        <Feature Name="http://tizen.org/feature/platform.core.cpu.arch.armv7">true</Feature>
+        <Feature Name="http://tizen.org/feature/platform.core.fpu.arch.vfpv3">true</Feature>
+        <Feature Name="http://tizen.org/feature/screen.size.normal.720.1280">true</Feature>
+    </Requirements>
+    <Apps>
+        <ApiVersion>2.2</ApiVersion>
+        <Privileges/>
+        <UiApp HwAcceleration="On" LaunchingHistoryVisible="True" Main="True" MenuIconVisible="True" Name="RailClimber">
+            <UiScalability CoordinateSystem="Physical"/>
+            <UiTheme SystemTheme="Default"/>
+            <DisplayNames>
+                <DisplayName Locale="eng-GB">Rail Climber</DisplayName>
+                <DisplayName Locale="eng-US">Rail Climber</DisplayName>
+                <DisplayName Locale="slk-SK">Rail Climber</DisplayName>
+            </DisplayNames>
+            <Icons>
+                <Icon Section="MainMenu" Type="Xhigh">mainmenu.png</Icon>
+            </Icons>
+            <LaunchConditions/>
+        </UiApp>
+    </Apps>
+</Manifest>

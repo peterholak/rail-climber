@@ -1,0 +1,14 @@
+version: 2
+
+title:
+    duration: 1.0
+    text: Watch out for the smoke
+
+medalTimes:
+    gold: 17.5
+    silver: 22
+    bronze: 33
+
+themeMutators:
+    - night
+    - winter

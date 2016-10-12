@@ -1,0 +1,12 @@
+version: 2
+
+title:
+    text: Out and up
+
+medalTimes:
+    gold: 60
+    silver: 120
+    bronze: 180
+
+themeMutators:
+    - sunset

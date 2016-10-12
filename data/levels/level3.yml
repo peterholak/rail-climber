@@ -1,0 +1,19 @@
+version: 2
+
+title:
+    duration: 0.9
+    text: Night time
+
+medalTimes:
+    gold: 5
+    silver: 9
+    bronze: 55
+
+tip:
+    type: text
+    message: >
+        Tip: Jumps are easier with calm and precise aiming.
+        Shoot backwards to slow down.
+
+themeMutators:
+    - night

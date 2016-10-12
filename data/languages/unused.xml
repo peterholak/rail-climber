@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language>
+	<B><O>Finished!</O><T>Hotovo!</T></B>
+	<B><O>Settings</O><T>Nastavenia</T></B>
+	<B><O>Vibrate</O><T>Vibrácie</T></B>
+	<B><O>Sound effects</O><T>Zapnúť zvuk</T></B>
+	<B><O>You died</O><T>Zomrel si</T></B>
+	<B><O>Congratulations!</O><T>Gratulujeme!</T></B>
+	<B><O>More levels</O><T>Ďalšie levely</T></B>
+	<B><O>coming soon</O><T>už čoskoro...</T></B>
+	<B><O>Resume</O><T>Pokračovať</T></B>
+	<B><O>Main menu</O><T>Späť do menu</T></B>
+	<B><O>Sound off</O><T>Vypnúť zvuk</T></B>
+	<B><O>Sound on</O><T>Zapnúť zvuk</T></B>
+	<B><O>High score</O><T>Rekord</T></B>
+	<B><O>Gold</O><T>Zlato</T></B>
+	<B><O>Silver</O><T>Striebro</T></B>
+	<B><O>Bronze</O><T>Bronz</T></B>
+	<B><O>Restart level</O><T>Reštart levelu</T></B>
+	<B><O>Game tips</O><T>Herné tipy</T></B>
+	<B><O>Select a level</O><T>Vyber si level</T></B>
+	<B><O>tex/play.png</O><T>tex/play_sk.png</T></B>
+	<B><O>tex/play_down.png</O><T>tex/play_sk_down.png</T></B>
+	<B><O>tex/end.png</O><T>tex/end_sk.png</T></B>
+	<B><O>tex/end_down.png</O><T>tex/end_sk_down.png</T></B>
+	<B><O>tex/settings.png</O><T>tex/settings_sk.png</T></B>
+	<B><O>tex/settings_down.png</O><T>tex/settings_sk_down.png</T></B>
+	<B><O>tex/medal_no.png</O><T>tex/medal_no_sk.png</T></B>
+	<B><O>t;Tip: You can move again after bouncing off of a wall.</O><T>t;Tip: Po odrazení sa od steny sa môžeš opäť hýbať.</T></B>
+	<B><O>t;Tip: Jumps are easier with slow and precise aiming. Shoot backwards to slow down.</O><T>t;Tip: Ľahšie sa skáče pri pomalom a presnom mierení. Strela proti smeru pohybu ťa spomalí.</T></B>
+	<B><O>t;Tip: Even a very small force is enough to detach from a rail.</O><T>t;Tip: Aj veľmi malá sila stačí na odpojenie od koľajnice.</T></B>
+</Language>

@@ -1,0 +1,13 @@
+version: 2
+
+medalTimes:
+    gold: 9
+    silver: 20
+    bronze: 40
+
+tip:
+    type: animation
+
+themeMutators:
+    - night
+    - winter

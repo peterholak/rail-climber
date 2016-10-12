@@ -1,0 +1,9 @@
+version: 2
+
+title:
+    text: Bouncing off the walls
+
+medalTimes:
+    gold: 3.8
+    silver: 22
+    bronze: 35

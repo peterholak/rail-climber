@@ -1,0 +1,9 @@
+version: 2
+
+title:
+    text: The Final Straw
+
+medalTimes:
+    gold: 45
+    silver: 105
+    bronze: 180

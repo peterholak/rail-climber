@@ -1,0 +1,11 @@
+version: 2
+
+medalTimes:
+    gold: 15
+    silver: 30
+    bronze: 65
+
+tip:
+    type: picture
+    picture: pictures/ui/tips/tip3.png
+
