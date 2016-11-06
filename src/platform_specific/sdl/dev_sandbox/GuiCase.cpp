@@ -5,8 +5,8 @@
 #include "ui/Button.h"
 
 void GuiCase::initializeCase() {
-    mLabel = new Label("This is a label", Vec2(1, 5), &mSharedAssets.defaultFont(), Color(255, 0, 0, 128));
-    mStaticPicture = new StaticPicture("pictures/game/ball.png", Vec2(5, 1), Vec2(Widget::SIZE_AUTO, 2));
+    mLabel = new Label("text label at 0, 0", Vec2(0, 0), &mSharedAssets.defaultFont(), Color(255, 0, 0, 128));
+    mStaticPicture = new StaticPicture("pictures/game/ball.png", Vec2(0, 0), Vec2(Widget::SIZE_AUTO, 2));
     mButton = new Button("Text button yo", &mSharedAssets.defaultFont(), Vec2(3, 3), Vec2(3, Widget::SIZE_AUTO));
     mButton->clicked.connect<GuiCase, &GuiCase::onButtonClicked>(this);
 }

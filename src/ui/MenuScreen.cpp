@@ -1,4 +1,5 @@
 #include "MenuScreen.h"
+#include "Logging.h"
 
 using namespace std;
 
@@ -49,10 +50,6 @@ bool MenuScreen::handleTouchRelease(const Vec2& inGameXY) {
     return true;
 }
 
-void MenuScreen::addWidget(Widget *widget) {
-    mWidgets.push_back(widget);
-}
-
 void MenuScreen::reload() {
     for (auto widget : mWidgets) {
         widget->reload();
@@ -89,4 +86,30 @@ void MenuScreen::render() {
             widget->draw(mBitmapRenderer);
         }
     }
+}
+
+Vec2 MenuScreen::below(const Widget *other, float padding) {
+    return other->bottomLeft() - Vec2{ 0, other->height() } - Vec2{ 0, padding };
+}
+
+Vec2 MenuScreen::above(const Widget *other, float padding) {
+    return other->topLeft() + Vec2{ 0, padding };
+}
+
+Vec2 MenuScreen::matchHeight(const Widget *other) {
+    return Vec2{ Widget::SIZE_AUTO, other->height() };
+}
+
+Vec2 MenuScreen::alignWithYx(const Widget *widgetY, const Widget *widgetX, const Vec2 &size) {
+    if (size.x() == Widget::SIZE_AUTO || size.y() == Widget::SIZE_AUTO) {
+        Log::warn("Relative coordinates don't work with auto-size yet.");
+    }
+    return Vec2{ widgetX->center().x() - size.x() / 2.0f, widgetY->center().y() - size.y() / 2.0f };
+}
+
+Vec2 MenuScreen::alignWithY(float x, const Widget *other, const Vec2 &size) {
+    if (size.x() == Widget::SIZE_AUTO || size.y() == Widget::SIZE_AUTO) {
+        Log::warn("Relative coordinates don't work with auto-size yet.");
+    }
+    return Vec2{ x, other->center().y() - size.y() / 2.0f };
 }

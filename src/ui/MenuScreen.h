@@ -10,7 +10,12 @@
 
 class MenuScreen : public SceneInterface {
 public:
-    MenuScreen(const char *sceneId, const UnitConverter &unitConverter, const SharedAssetRegistry &sharedAssets, const BitmapRenderer &bitmapRenderer);
+    MenuScreen(
+        const char *sceneId,
+        const UnitConverter &unitConverter,
+        const SharedAssetRegistry &sharedAssets,
+        const BitmapRenderer &bitmapRenderer
+    );
     virtual ~MenuScreen();
     void reload();
     void unload();
@@ -24,10 +29,22 @@ public:
     virtual void render();
     virtual const char* getSceneId() const { return mSceneId; }
 
-    void addWidget(Widget *widget);
+    template<class T>
+    T* addWidget(T *widget) {
+        mWidgets.push_back(widget);
+        return widget;
+    }
 
     bool isFullScreen() const { return mFullScreen; }
     const std::list<Widget*> getWidgets() const { return mWidgets; }
+
+    static constexpr float DefaultPadding = 0.2f;
+
+    static Vec2 below(const Widget* other, float padding = DefaultPadding);
+    static Vec2 above(const Widget* other, float padding = DefaultPadding);
+    static Vec2 matchHeight(const Widget* other);
+    static Vec2 alignWithYx(const Widget *widgetY, const Widget *widgetX, const Vec2 &size);
+    static Vec2 alignWithY(float x, const Widget* other, const Vec2& size);
 
 protected:
     const BitmapRenderer &mBitmapRenderer;
